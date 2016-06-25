@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
 
 @Component({
@@ -9,18 +9,18 @@ import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
   directives: [MdIcon],
   viewProviders: [MdIconRegistry]
 })
-export class PlayingCardComponent implements OnInit {
+export class PlayingCardComponent {
 
   @Input()
   suit: string;
   @Input()
   rank: string;
+  @Input()
+  selected: boolean;
+  @Input()
+  flipped: boolean;
 
   constructor() { }
-
-  ngOnInit() {
-    console.log("suit=" + this.suit + " rank=" + this.rank);
-  }
 
   getSvgSrc() {
     if (this.suit === 'spades') {

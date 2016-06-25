@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {HTTP_PROVIDERS} from '@angular/http';
+import { NgForm }    from '@angular/common';
 
 import { PlayingCardComponent } from './playing-card';
 
@@ -13,5 +14,10 @@ import { PlayingCardComponent } from './playing-card';
 })
 
 export class AppComponent {
-  title = 'app works!';
+  selected = false;
+  flipped = false;
+  possibleRanks = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+  selectedRank = this.possibleRanks[0];
+  possibleSuits = ["spades", "hearts", "diamonds", "clubs"];
+  selectedSuit = this.possibleSuits[0];
 }

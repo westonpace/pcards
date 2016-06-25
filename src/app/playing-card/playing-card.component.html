@@ -1,5 +1,11 @@
-<button class="wp-card">
-   <md-icon svgSrc="{{getSvgSrc()}}">	
-   </md-icon>
-   <span>{{rank}}</span>
- </button>
+<div class="card-container">
+  <div class="frontside" [class.flipped]="flipped" [class.selected]="selected" [class.red]="suit === 'diamonds' || suit === 'hearts'">
+    <md-icon svgSrc="{{getSvgSrc()}}">	
+    </md-icon>
+    <span>{{rank}}</span>
+  </div>
+  <div [class.flipped]="flipped" [class.selected]="selected" class="backside">
+    <md-icon svgSrc="./images/crossed_swords.svg">	
+    </md-icon>
+  </div>
+</div> 
