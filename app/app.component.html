@@ -1,0 +1,17 @@
+<div class="main">
+	<playing-card [selected]="selected" [flipped]="flipped" [suit]="selectedSuit" [rank]="selectedRank">
+	</playing-card>
+	<button (click)="selected = !selected">Toggle selected</button>
+	<button (click)="flipped = !flipped">Toggle flipped</button>
+	<button (click)="selected = !selected; flipped = !flipped">Toggle both</button>
+	<label for="rank">Rank</label>
+	<select [(ngModel)]="selectedRank">
+	    <option *ngFor="let rank of possibleRanks" [value]="rank">{{rank}}</option>
+	</select>
+	<select [(ngModel)]="selectedSuit">
+	    <option *ngFor="let suit of possibleSuits" [value]="suit">{{suit}}</option>
+	</select>
+</div>
+<div class="footer">
+<p>Icons courtesy of Leadway Global LLC (the suit icons) and Yaroslav Samoilov (card back) via the Noun Project.</p>
+</div>
