@@ -1,6 +1,19 @@
 import { Component, Input } from '@angular/core';
 import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
 
+export class PlayingCard {
+  suit: string;
+  rank: string;
+  flipped: boolean;
+
+  constructor(suit:string, rank:string, flipped:boolean) {
+    this.suit = suit;
+    this.rank = rank;
+    this.flipped = flipped;
+  }
+
+}
+
 @Component({
   moduleId: module.id,
   selector: 'playing-card',
@@ -12,27 +25,23 @@ import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
 export class PlayingCardComponent {
 
   @Input()
-  suit: string;
-  @Input()
-  rank: string;
+  card: PlayingCard;
   @Input()
   selected: boolean;
-  @Input()
-  flipped: boolean;
 
   constructor() { }
 
   getSvgSrc() {
-    if (this.suit === 'spades') {
+    if (this.card.suit === 'spades') {
       return 'images/spade.svg';
-    } else if (this.suit === 'hearts') {
+    } else if (this.card.suit === 'hearts') {
       return 'images/heart.svg';
-    } else if (this.suit === 'clubs') {
+    } else if (this.card.suit === 'clubs') {
       return 'images/club.svg';
-    } else if (this.suit === 'diamonds') {
+    } else if (this.card.suit === 'diamonds') {
       return 'images/diamond.svg';
     } else {
-      console.log('Unknown suit (' + this.suit + ')');
+      console.log('Unknown suit (' + this.card.suit + ')');
     }
   }
 

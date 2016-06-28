@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"CardAdd",
+				"CardAddEvent	class"
+			],
+			[
+				"Playin",
+				"PlayingCardComponent	alias"
+			],
+			[
+				"cen",
+				"align-content"
+			],
+			[
+				"poss",
+				"possibleSuits	property"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"Md",
+				"MdIconRegistry	alias"
+			],
+			[
+				"ciph",
+				"cipheredCnid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/pac55469/Desktop/cards/pcards/src/app/card-demo/card-demo.component.html",
+			"settings":
+			{
+				"buffer_size": 751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.ts",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Windows",
+				"name": "index.ts"
+			}
+		},
+		{
+			"file": "card-pile.ts",
+			"settings":
+			{
+				"buffer_size": 755,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 353.0,
+		"last_filter": "save",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Typescript",
+				"TypeScript: Overloads Panel"
+			],
+			[
+				"packagecontrol: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rever",
+				"File: Revert"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"tsc",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"view.encoding()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/pac55469/Desktop/cards/pcards"
+	],
+	"file_history":
+	[
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/card-model/deck.spec.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/dist/vendor/rxjs/Observable.js",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/app.component.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/main.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/index.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/app.component.html",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/deck-demo/deck-demo.component.html",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/deck-demo/deck-demo.component.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/deck/deck.component.html",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/playing-card/playing-card.component.html",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/deck/deck.component.css",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/deck-demo/deck-demo.component.css",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/playing-card/playing-card.component.css",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/card-demo/card-demo.component.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/app.routes.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/card-demo/app.routes.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/playing-card/playing-card.component.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/card-demo/card-demo.component.html",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/card-demo/card-demo.component.css",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/deck/deck.component.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/deck/deck.component.spec.ts",
+		"/C/Users/pac55469/Downloads/noun_349103_cc.svg",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/app.component.css",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/playing-card/playing-card.component.spec.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/app.component.spec.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/index.html",
+		"/C/Users/pac55469/Downloads/cards/noun_29801_cc.svg",
+		"/C/Users/pac55469/Desktop/SFPP Installation Notes.txt",
+		"/C/SFPP/SFPP/log/activity.log",
+		"/C/SFPP/SFPP/log/message.log",
+		"/C/Users/pac55469/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/pac55469/Desktop/cards/pcards/public/images/crossed_swords.svg",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/main.css",
+		"//cosnas2.cos.ds.jdsu.net/PacketPortal/Installs/2.00.000/latest/component.versions",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/app/playing-card/index.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/angular-cli-build.js",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/system-config.ts",
+		"/C/Users/pac55469/Desktop/cards/pcards/public/foos",
+		"/C/Users/pac55469/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/pac55469/AppData/Roaming/Sublime Text 3/Packages/TypeScript/TypeScriptReact.sublime-settings",
+		"/C/Users/pac55469/AppData/Roaming/Sublime Text 3/Packages/TypeScript/TypeScript.sublime-settings",
+		"/C/Users/pac55469/AppData/Roaming/Sublime Text 3/Packages/TypeScript/Preferences.sublime-settings",
+		"/C/Users/pac55469/Desktop/cards/pcards/src/tsconfig.json",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/scripts/directives/wpchart.js",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/views/pres.html",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/index.html",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/views/pre.html",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/views/sm.html",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/scripts/app.js",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/scripts/controllers/pre.js",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/scripts/controllers/sm.js",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/scripts/controllers/pres.js",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/scripts/services/measurementaccess.js",
+		"/C/Users/pac55469/Desktop/systemmanager/cho/site/app/views/main.html",
+		"/C/Users/pac55469/Desktop/cards/app/scripts/directives/pcard.js",
+		"/C/Users/pac55469/Desktop/cards/app/scripts/app.js",
+		"/C/Users/pac55469/Desktop/cards/app/styles/main.scss",
+		"/C/Users/pac55469/Desktop/cards/Gruntfile.js",
+		"/C/Users/pac55469/Desktop/cards/app/views/main.html",
+		"/C/Users/pac55469/Desktop/cards/app/scripts/controllers/main.js",
+		"/C/Users/pac55469/Desktop/cards/app/index.html",
+		"/C/Users/pac55469/Desktop/cards/app/images/spade.svg",
+		"/C/Users/pac55469/Desktop/cards/app/images/diamond.svg",
+		"/C/Users/pac55469/Desktop/cards/app/images/club.svg",
+		"/C/Users/pac55469/Desktop/cards/app/images/heart.svg",
+		"/C/Users/pac55469/AppData/Local/Temp/735972.2226132.ptfstderr.txt.htm",
+		"/C/Users/pac55469/Desktop/austin/app/index.html",
+		"/C/Users/pac55469/Desktop/austin/app/views/main.html",
+		"/C/Users/pac55469/Desktop/austin/app/scripts/app.js",
+		"/C/Users/pac55469/Desktop/austin/app/scripts/controllers/main.js",
+		"/C/Users/pac55469/Desktop/austin/app/styles/main.scss",
+		"/C/Users/pac55469/Desktop/austin/app/scripts/directives/warchart.js",
+		"/C/Users/pac55469/Downloads/parallax-template/parallax-template/js/init.js",
+		"/C/Users/pac55469/Desktop/austin/bower.json",
+		"/C/Users/pac55469/AppData/Local/Temp/735972.2226037.ptfstdout.txt.htm",
+		"/C/Users/pac55469/Downloads/parallax-template/parallax-template/css/style.css",
+		"/C/Users/pac55469/Downloads/parallax-template/parallax-template/index.html",
+		"/C/Users/pac55469/AppData/Local/Temp/733906.2217566.installerStdOut.log.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/734694.2219251.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/734694.2219295.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/dv_sles_customer_100_100ms_1_5minutes.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/dv_sles_customer_2K_10_1_5minutes.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/dv_sles_customer_1K_1_1_5minutes.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/734772.2220657.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/734784.2220746.ptfstderr.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/734785.2220758.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/733385.2220374.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/733385.2220373.connectorOutput.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/733385.2220379.tempStructure.xml.htm",
+		"/C/Users/pac55469/Desktop/smgui/Gruntfile.js",
+		"/C/Users/pac55469/Downloads/mdl-template-portfolio/index.html",
+		"/C/Users/pac55469/Desktop/austin/Gruntfile.js",
+		"/C/Users/pac55469/Desktop/smgui/package.json",
+		"/C/Users/pac55469/AppData/Local/Temp/dvsles_customer_100-100ms-1_10_minutes_results.txt",
+		"/C/Users/pac55469/Downloads/dvsles_4k-10-1_5_minutes_results.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/noun_172035_cc.svg",
+		"/C/Users/pac55469/AppData/Local/Temp/dvsles_300-100ms-1_5_minutes_results.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/dvsles_400-100ms-1_5_minutes_results.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/dvsles_customer_100-1-1_5_minutes_results.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/731024.2184592.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730496.2192087.ptfstderr.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730539.2193124.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730941.2193155.installerStdOut.log.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730496.2193141.ptfstderr.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730495.2193291.ptfstderr.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730737.2189331.tstStdOut.log.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730737.2189332.tstStdErr.log.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730424.2191129.stress-test-operation.log.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730947.2188911.ptfstderr.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730448.2193766.tstStdErr.log.htm",
+		"/C/Users/pac55469/Downloads/cards/noun_50185_cc.svg",
+		"/C/Users/pac55469/AppData/Local/Temp/733393.2195909.connectorOutput.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/733393.2207667.connectorOutput.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/733393.2207670.connectorOutput.txt.htm",
+		"/C/Users/pac55469/Downloads/cards/diamond.svg",
+		"/C/Users/pac55469/Downloads/noun_19657_cc.svg",
+		"/C/Users/pac55469/AppData/Local/Temp/730449.2193781.tstStdErr.log.htm",
+		"/C/Users/pac55469/Downloads/SFPP_20131025/SFPP/conf/cnid.sfp",
+		"/C/Users/pac55469/Documents/rc1_trial.lic",
+		"/C/tmp/skb.log",
+		"/C/tmp/skp.out",
+		"/C/Users/pac55469/Downloads/730916.2185410.ptfstdout.txt",
+		"/C/Users/pac55469/AppData/Local/Temp/730512.2184950.ptfstdout.txt-1.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730723.2184931.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730266.2188183.ptfstderr.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730556.2188275.ptfstdout.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730469.2192440.ptfstderr.txt.htm",
+		"/C/Users/pac55469/AppData/Local/Temp/730469.2192508.ptfstderr.txt.htm"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"PlayingCardComponent",
+			"packages",
+			"datum",
+			"minY",
+			"chart.title",
+			"title",
+			"data.samples",
+			"data",
+			"points",
+			"function",
+			"attrs.suit",
+			"ERROR",
+			"padding",
+			"data",
+			"svg",
+			"canvasArea",
+			"chartArea",
+			"teal",
+			"init.js",
+			".parallax",
+			"9000",
+			"error",
+			"^##\\[",
+			"FAIL"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"data",
+			"samples",
+			"scope.suit",
+			"data.values"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/pac55469/Desktop/cards/pcards/src/app/card-demo/card-demo.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.ts",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "card-pile.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "deck.spec.ts",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 360.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
