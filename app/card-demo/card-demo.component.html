@@ -1,21 +1,6 @@
 <div class="main">
 	<playing-card [card]="card" [class.selected]="selected">
 	</playing-card>
-	<div class="row">
-		<playing-card [card]="{'suit':'clubs', 'rank':'A', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'2', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'3', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'4', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'5', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'6', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'7', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'8', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'9', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'10', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'J', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'Q', flipped:false}" [class.selected]="selected"></playing-card>
-		<playing-card [card]="{'suit':'clubs', 'rank':'K', flipped:false}" [class.selected]="selected"></playing-card>
-	</div>
 	<button (click)="selected = !selected">Toggle selected</button>
 	<button (click)="card.flipped = !card.flipped">Toggle flipped</button>
 	<button (click)="selected = !selected; card.flipped = !card.flipped">Toggle both</button>
