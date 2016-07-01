@@ -32,17 +32,20 @@ var barrels = [
     '@angular/router',
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
-    // Thirdparty barrels.
-    'rxjs',
     // App specific barrels.
     'app',
     'app/shared',
     'app/playing-card',
+    'app/card-model',
+    'app/deck',
+    'app/card-demo',
+    'app/deck-demo',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
     cliSystemConfigPackages[barrelName] = { main: 'index' };
 });
+cliSystemConfigPackages['rxjs'] = { main: 'Rx' };
 // Apply the CLI SystemJS configuration.
 System.config({
     map: {

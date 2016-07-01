@@ -1,0 +1,6 @@
+<div class="row">
+    <deck [pile]="leftPile"></deck>
+    <deck [pile]="rightPile"></deck>
+</div>
+<button [disabled]="!dealRightEnabled" (click)="dealCardRight()">Deal Card Right</button>
+<button [disabled]="!dealLeftEnabled" (click)="dealCardLeft()">Deal Card Left</button>

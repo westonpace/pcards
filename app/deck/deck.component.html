@@ -1,0 +1,10 @@
+<div class="deck-container">
+  <playing-card *ngIf="fill() &gt; 0.25" class="deckcard-1"></playing-card>
+  <playing-card *ngIf="fill() &gt; 0.50" class="deckcard-2"></playing-card>
+  <playing-card *ngIf="fill() &gt; 0.75" class="deckcard-3"></playing-card>
+</div>
+<div class="top-container">
+  <playing-card [ngClass]="getClassesForCard(0)" class="deckcard-4" [card]="getCard(0)"></playing-card>
+  <playing-card [ngClass]="getClassesForCard(1)" class="deckcard-4" [card]="getCard(1)"></playing-card>
+  <playing-card [ngClass]="getClassesForCard(2)" class="deckcard-4" [card]="getCard(2)"></playing-card>
+</div>

@@ -1,0 +1,146 @@
+:host {
+	display: block;
+	position:relative;
+    width: 116px;
+    height: 140px;
+}
+
+.deck-container {
+	width: 84px;
+	height: 108px;
+	left: 26px;
+	top: 26px;
+	position: relative;
+}
+
+.top-container {
+	position:absolute;
+	width:88px;
+	height:121px;
+	left:14px;
+	top:9.5px;
+	overflow: hidden;
+}
+
+playing-card {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.top-container playing-card {
+	display:block;
+	width:72px;
+	height:99px;
+	left:8px;
+	top:11px;
+	z-index: 2;
+}
+
+.top-container .topcard-instant {
+
+}
+
+.top-container .undercard {
+	z-index: 1;
+}
+
+.top-container .offstage-instant {
+	left: 100px;	
+}
+
+.top-container .empty {
+	display:none;
+}
+
+.top-container .offstage-transition {
+	animation: vanishanimation .5s ease-in;
+	animation-fill-mode: forwards;
+	z-index: 3;
+}
+
+.top-container .topcard-transition {
+	animation: reverseanimation .5s ease-in;
+	animation-fill-mode: forwards;
+	z-index: 3;
+}
+
+.deckcard-1 {
+	transform: scale(1.025) rotateZ(14deg);
+}
+
+.deckcard-2 {
+	transform: scale(1.05) rotateZ(-8deg);
+}
+
+.deckcard-3 {
+	transform: scale(1.075) rotateZ(7deg);
+}
+
+.deckcard-1 >>> .card-container div.pcard {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.deckcard-2 >>> .card-container div.pcard {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.deckcard-3 >>> .card-container div.pcard {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.deckcard-4 >>> .card-container div.pcard {
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.top-container >>> div {
+	transition: none;
+}
+
+playing-card {
+	transition: none;
+}
+
+@keyframes vanishanimation {
+  0% {
+	width:72px;
+	height:99px;
+	left:8px;
+	top:11px;
+  }
+  20% {
+  	left: 0px;
+  	top: 0px;
+  	width: 88px;
+  	height: 121px;
+  }
+  100% {
+  	left: 100px;
+  	top: 0px;
+    width: 88px;
+    height: 121px;
+  }
+}
+
+/*In theory we could just apply vanishanimation in reverse but that doesn't work in the case that a card goes from topcard-transition to offstage-transition
+  (or vice-versa) because of http://stackoverflow.com/questions/33347992/reuse-css-animation-in-reversed-direction-by-resetting-the-state*/
+@keyframes reverseanimation {
+  0% {
+  	left: 100px;
+  	top: 0px;
+    width: 88px;
+    height: 121px;
+  }
+  80% {
+  	left: 0px;
+  	top: 0px;
+  	width: 88px;
+  	height: 121px;
+  }
+  100% {
+	width:72px;
+	height:99px;
+	left:8px;
+	top:11px;
+  }
+}

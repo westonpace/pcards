@@ -1,0 +1,23 @@
+.main {
+    min-height: 100%;
+    margin-bottom: -280px;
+}
+
+.main:after {
+  content: "";
+  display: block;
+  height: 300px;
+}
+
+.footer {
+	display: block;
+	height: 300px;
+}
+
+playing-card {
+	margin: 10px;
+}
+
+.row {
+	display:flex;
+}

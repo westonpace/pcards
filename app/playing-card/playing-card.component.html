@@ -1,11 +1,9 @@
-<div class="card-container">
-  <div class="frontside" [class.flipped]="flipped" [class.selected]="selected" [class.red]="suit === 'diamonds' || suit === 'hearts'">
-    <md-icon svgSrc="{{getSvgSrc()}}">	
-    </md-icon>
-    <span>{{rank}}</span>
-  </div>
-  <div [class.flipped]="flipped" [class.selected]="selected" class="backside">
-    <md-icon svgSrc="./images/crossed_swords.svg">	
-    </md-icon>
-  </div>
-</div> 
+<div class="pcard frontside" [class.flipped]="card &amp;&amp; card.flipped" [class.red]="card &amp;&amp; (card.suit === 'diamonds' || card.suit === 'hearts')">
+	<md-icon *ngIf="card" svgSrc="{{getSvgSrc()}}">	
+	</md-icon>
+	<span *ngIf="card">{{card.rank}}</span>
+</div>
+<div [class.flipped]="card &amp;&amp; card.flipped" class="pcard backside">
+	<md-icon svgSrc="./images/crossed_swords.svg">	
+	</md-icon>
+</div>
