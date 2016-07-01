@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm }    from '@angular/common';
 
-import { PlayingCardComponent, PlayingCard } from '../playing-card';
+import { PlayingCard } from '../card-model';
+import { PlayingCardComponent } from '../playing-card';
 
 @Component({
   moduleId: module.id,

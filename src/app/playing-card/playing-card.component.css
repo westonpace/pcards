@@ -1,31 +1,34 @@
-.card-container {
+:host {
+  display:block;
   position:relative;
   padding: 0px;
-  width: 68px;
-  height: 92px;
-  margin: 4px 4px;
-}
-
-.card-container div {
-  left: 0px;
-  top: 0px;
   width: 64px;
   height: 88px;
-  border-radius: 8px;
-  position: absolute;
   transition: all .2s ease-in-out;
-  background-color: #00BCD4;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.card-container div.selected {
+:host-context(.selected) {
   width: 68px;
   height: 92px;
-  margin: 2px 2px;
+}
+
+:host-context(.selected) div {
   background-color: #4DD0E1;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+}
+
+div {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: all .2s ease-in-out;
+  background-color: #00BCD4;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 div.backside {
@@ -45,30 +48,31 @@ div.frontside.flipped {
 }
 
 .frontside md-icon {
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 44px;
-  height: 44px;
+  margin-left: 15.625%;
+  margin-right: 15.625%;
+  width: 68.75%;
+  height: 50%;
   fill: #212121;
 }
 
 .backside md-icon {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 44px;
-  height: 68px;
+  margin-left: 15.625%;
+  margin-right: 15.625%;
+  margin-top: 11.36%;
+  margin-bottom: 11.36%;
+  width: 68.75%;
+  height: 77.27%;
   fill: #212121;
 }
 
 span {
   display: block;
+  overflow: hidden;
   height: 50%;
   width: 100%;
   text-align: center;
-  font-size: 150%;
-  font-family: 'Roboto Mono';
+  font-size: 200%;
+  font-family: 'Josefin Slab';
 }
 
 .red md-icon {

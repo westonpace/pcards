@@ -13,3 +13,11 @@
 	display: block;
 	height: 300px;
 }
+
+playing-card {
+	margin: 10px;
+}
+
+.row {
+	display:flex;
+}

@@ -1,18 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
 
-export class PlayingCard {
-  suit: string;
-  rank: string;
-  flipped: boolean;
-
-  constructor(suit:string, rank:string, flipped:boolean) {
-    this.suit = suit;
-    this.rank = rank;
-    this.flipped = flipped;
-  }
-
-}
+import { PlayingCard } from '../card-model';
 
 @Component({
   moduleId: module.id,
@@ -26,8 +15,6 @@ export class PlayingCardComponent {
 
   @Input()
   card: PlayingCard;
-  @Input()
-  selected: boolean;
 
   constructor() { }
 

@@ -39,13 +39,11 @@ const barrels: string[] = [
   '@angular/platform-browser',
   '@angular/platform-browser-dynamic',
 
-  // Thirdparty barrels.
-  'rxjs',
-
   // App specific barrels.
   'app',
   'app/shared',
   'app/playing-card',
+  'app/card-model',
   'app/deck',
   'app/card-demo',
   'app/deck-demo',
@@ -56,6 +54,8 @@ const cliSystemConfigPackages: any = {};
 barrels.forEach((barrelName: string) => {
   cliSystemConfigPackages[barrelName] = { main: 'index' };
 });
+
+cliSystemConfigPackages['rxjs'] = { main: 'Rx' };
 
 /** Type declaration for ambient System. */
 declare var System: any;
